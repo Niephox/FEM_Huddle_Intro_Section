@@ -1,0 +1,23 @@
+:root{
+    --primary-violet:hsl(257,40%,49%);
+    --f-heading: 'Poppins', sans-serif;;
+    --f-body: 'Open Sans', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+html{
+    font-size:16px;
+}
+
+body{
+    background-color:var(--primary-violet);
+    background-image:url("./images/bg-desktop.svg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family:var(--f-body);
+}
